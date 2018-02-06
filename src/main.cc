@@ -17,9 +17,9 @@ using namespace node;
 using namespace v8;
 using namespace cryptonote;
 
-Handle<Value> except(const char* msg) {
-    return ThrowException(Exception::Error(String::New(msg)));
-}
+//Handle<Value> except(const char* msg) {
+//    return ThrowException(Exception::Error(String::New(msg)));
+//}
 
 blobdata uint64be_to_blob(uint64_t num) {
     blobdata res = "        ";
